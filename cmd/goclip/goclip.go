@@ -106,7 +106,7 @@ func doPaste(format string) {
 		panic(err)
 	}
 
-	fmt.Println(out)
+	fmt.Print(out)
 }
 
 func usage() {
